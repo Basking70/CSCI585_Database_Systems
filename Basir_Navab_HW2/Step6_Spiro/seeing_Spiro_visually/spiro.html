@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <center><header> My Spirograph(TM) curve and all nods with their (X,Y)</header><br></center>
+<center><canvas id="myCanvas" width="300" height="300" style="border:5px solid red;">
+Your browser does not support the HTML5 canvas tag.</canvas></center>
+<p id="demo"></p>
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+var R=5, r=1, a=4;
+var x0=R+r-a, y0=0;
+    
+ctx.beginPath();
+ctx.moveTo(150+10*x0,150+10*y0);
+
+var cos=Math.cos, sin=Math.sin, pi=Math.PI, nRev=10;
+for (var t=0.0;t<(pi*nRev);t+=0.01)
+    {
+        var x=(R+r)*cos((r/R)*t) - a*cos((1+r/R)*t); 
+        var y=(R+r)*sin((r/R)*t) - a*sin((1+r/R)*t); 
+        ctx.lineTo(150+10*x,150+10*y); 
+        document.write("<center>"+ x + "," + y +"</center>" );
+        
+    }
+ctx.stroke();
+    
+//&lt; Placemark &gt;
+</script> 
+</body>
+</html>

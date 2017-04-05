@@ -1,0 +1,53 @@
+Here are my points:
+
+
+
+-Place 1: 
+RTH 109 (Tutor Hall)
+Latitude: 34.020219
+Longitude: -118.289899
+---------------
+- Place 2:
+Name : SSL (seaver science library)
+Latitude: 34.019377
+Longitude: -118.288943
+---------------
+- Place 3:
+Name : OHE (Olin Hall)
+Latitude: 34.020889
+Longitude:-118.289398
+---------------
+- Place 4:
+Name : ANN (Wallis Annenberg Hall)
+Latitude: 34.020911
+Longitude: -118.287121
+---------------
+- Place 5:
+Name : Exposition/Vermont corner (E_V_corner)
+Latitude: 34.018480, 
+Longitude: -118.291377
+---------------
+- Place 6:
+Name :  Vermont/Jefferson corner (V_J_corner)
+Latitude: 34.025343, 
+Longitude: -118.291383
+---------------
+- Place 7:
+Name : Jefferson/Figueroa corner (J_F_corner)
+Latitude: 34.021819 
+Longitude: -118.280257
+---------------
+- Place 8:
+Name : Figueroa/Exposition corner (F_E_corner)
+Latitude: 34.018454
+Longitude:-118.282408
+---------------
+- Place 9:
+Name : home 
+Latitude: 34.028573
+Longitude: -118.272854
+————————————————————
+————————————————————
+place 10: SGM (Seeley G. Mudd Building)
+Latitude: 34.020689
+Longitude: -118.289014

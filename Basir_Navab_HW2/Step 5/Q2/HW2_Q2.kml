@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+    <Placemark >
+        <name>Home to J_F_corner</name>
+        <LineString>
+            <coordinates>-118.272854,34.028573,100 -118.280257,34.021819,100 </coordinates>
+        </LineString>
+	<Style> 
+  		<LineStyle>  
+   			<color>#ff0000ff</color>
+			<width>5</width>
+  		</LineStyle> 
+ 	</Style>
+    </Placemark>
+
+
+    <Placemark >
+        <name>Home to F_E_corner</name>
+        <LineString>
+            <coordinates>-118.272854,34.028573,100 -118.282408,34.018454,100</coordinates>
+        </LineString>
+	<Style> 
+  		<LineStyle>  
+   			<color>#ff0000ff</color>
+			<width>5</width>
+  		</LineStyle> 
+ 	</Style>
+    </Placemark>
+
+
+    <Placemark >
+        <name>Home to ANN</name>
+        <LineString>
+            <coordinates>-118.272854,34.028573,100 -118.287121,34.020911,100 </coordinates>
+        </LineString>
+	<Style> 
+  		<LineStyle>  
+   			<color>#ff0000ff</color>
+			<width>5</width>
+  		</LineStyle> 
+ 	</Style>
+    </Placemark>
+
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.272854,34.028573</coordinates></Point>
+</Placemark>
+<Placemark><name>F_E_corner</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282408,34.018454</coordinates></Point>
+</Placemark>
+<Placemark><name>J_F_corner</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280257,34.021819</coordinates></Point>
+</Placemark>
+<Placemark><name>V_J_corner</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291383,34.025343</coordinates></Point>
+</Placemark>
+<Placemark><name>E_V_corner</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291377,34.018480</coordinates></Point>
+</Placemark>
+<Placemark><name>ANN</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287121,34.020911</coordinates></Point>
+</Placemark>
+<Placemark><name>OHE</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289398,34.020889</coordinates></Point>
+</Placemark>
+<Placemark><name>SSL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28894360053017,34.019377635158406</coordinates></Point>
+</Placemark>
+<Placemark><name>RTH</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28989920476462,34.020219258176624</coordinates></Point>
+</Placemark>
+</Document></kml>
