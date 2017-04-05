@@ -1,0 +1,4 @@
+Question 1: 
+
+I believe one of the good and esiest way to solve this problem is using “trigger”. 
+We can define two triggers to check new data that is going to be inserted to the data base. The first trigger is going to check that arrival date should be before (<) Desperate date. For the second problem, the second trigger is going to check if the room number in that period of time(from arrival date to desperate date)  in the guest table is singed to anyone or not(or the room number is exist or not, it depends on how you create the tables)
