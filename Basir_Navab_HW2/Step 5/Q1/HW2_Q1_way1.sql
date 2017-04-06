@@ -1,4 +1,6 @@
-﻿--Creating Q1_W1 table
+--- I used Postgres+PostGIS 
+
+--Creating Q1_W1 table
 CREATE TABLE q1_w1 ( 
 id SERIAL PRIMARY KEY,
 name VARCHAR(64),

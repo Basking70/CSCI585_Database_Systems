@@ -1,4 +1,6 @@
-﻿create table geometries (name varchar, geom geometry);
+--- I used Postgres+PostGIS 
+
+create table geometries (name varchar, geom geometry);
 
 insert into geometries values
 	('point','POINT(0 0)'),

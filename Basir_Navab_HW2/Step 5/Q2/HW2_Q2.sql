@@ -1,4 +1,6 @@
-﻿--Creating HwPoints table
+--- I used Postgres+PostGIS 
+
+--Creating HwPoints table
 CREATE TABLE q2 
    ( 
 	id SERIAL PRIMARY KEY,

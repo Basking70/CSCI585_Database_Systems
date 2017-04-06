@@ -1,4 +1,6 @@
-﻿--Creating q1_w3 table
+--- I used Postgres+PostGIS 
+
+--Creating q1_w3 table
 CREATE TABLE q1_w3 ( 
 name VARCHAR(64),
 location geography

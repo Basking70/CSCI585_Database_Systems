@@ -1,4 +1,6 @@
-﻿SELECT ST_AsText(ST_ConvexHull(
+--- I used Postgres+PostGIS 
+
+SELECT ST_AsText(ST_ConvexHull(
 	ST_Collect(
 		ST_GeomFromText('MULTIPOINT(	-118.289899 34.020219,
 						-118.288943 34.019377,
